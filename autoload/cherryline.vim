@@ -59,5 +59,5 @@ function! cherryline#SetStatusline()
     set statusline+=%=
     set statusline+=\ %{&ft}\ 
     set statusline+=%#CherrylineLineNumber#\ %l:%{cherryline#CursorCol()}\ [%L]\ (%p%%)\ 
-    set statusline+=%#{cherryline#Filename}\ 
+    set statusline+=%#{CherrylineFilename}\ 
 endfunction
